@@ -31,7 +31,6 @@ export const Details = styled.div`
     padding: 5px 10px;
     background: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
-    // box-shadow: 0 2px 5px 0 #000;
     cursor:pointer;
     :hover{
         opacity: .7;
