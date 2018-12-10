@@ -24,6 +24,17 @@ export default class Header extends PureComponent{
             search: []
         };
     }
+    myClick = (isOpen,el)=>{
+
+        const next = el.nextElementSibling;
+        if(isOpen){
+            next.style.display = 'flex';
+            next.nextElementSibling.style.display = 'block';
+        }else {
+            next.style.display = 'none';
+            next.nextElementSibling.style.display = 'none';
+        }
+    };
     render(){
         const { language } = this.props;
         document.addEventListener('scroll', function f(ev){
@@ -48,7 +59,14 @@ export default class Header extends PureComponent{
                         </Inp>
                     </Div>
                     <Search id={'search'} >
-                        {this.state.search.length > 0 && this.state.search.map((element) => <MasterList key={element.id} master={element} language={language}/>)}
+                        {this.state.search.length > 0 && this.state.search.map((element) => <MasterList
+                                                                                                        defaultOpen={false}
+                                                                                                        myClick = {this.myClick}
+                                                                                                        key={element.id}
+                                                                                                        master={element}
+                                                                                                        language={language}
+                                                                                            />
+                        )}
                     </Search>
                     <Div>
                         <Select>
@@ -61,6 +79,8 @@ export default class Header extends PureComponent{
                 </HeaderTag>
         )
     }
+
+
     handleChange = (el) => {
         let searchTag = document.getElementById('search');
         let search = el.target.value.trim().toLowerCase();

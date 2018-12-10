@@ -2,27 +2,33 @@ import styled from 'styled-components'
 
 
 export const ListElement = styled.div`
-    background: rgba(20,20,20,.4);
+    background: background: rgba(80,140,117,.5);
     margin-bottom: 1px;
     // width: 250px;
     // margin: 0 auto;
     transition: all .4s linear;
+    // display: none;
 `;
 export const FullName = styled.div`
-    background: silver;
+    // background: silver;
+    background: #fff;
     line-height: 40px;
-    color: #000;
+    color: #508C75;
     cursor: pointer;
     :hover{
-        color: #888;
+        background: #508C75;
+        color: #fff;
     }
     padding: 0 20px;
 `;
 export const PersonalDetails = styled.div`
-    display: flex;
+    // display: none;
+    display: ${props => props.open ? 'flex' : 'none'};
+
     flex-direction: row;
     justify-content: space-between;
     padding: 0 20px;
+    // background: rgba(80,140,117,.5)
 `;
 export const Age = styled.div`
     color:#fff;
@@ -32,6 +38,7 @@ export const Details = styled.div`
     background: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
     cursor:pointer;
+
     :hover{
         opacity: .7;
     }
@@ -41,4 +48,8 @@ export const Details = styled.div`
 `;
 export const Description = styled(Age)`
     padding: 0 20px;
+    display: ${props => props.open ? 'block' : 'none'};
+    min-height: 20px;
+    // background: rgba(80,140,117,.5)
+
 `;

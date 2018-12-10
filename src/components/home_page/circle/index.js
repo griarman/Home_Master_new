@@ -7,7 +7,7 @@ import {
 
 export default class Circle extends Component{
     render(){
-        console.log(this);
+        // console.log(this);
         return(
             <CircleTag>
                 <CircleItem className = 'disc circle' onClick={this.handleClick}/>
