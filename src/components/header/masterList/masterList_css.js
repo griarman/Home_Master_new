@@ -1,16 +1,12 @@
-import styled from 'styled-components'
-
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const ListElement = styled.div`
     background: background: rgba(80,140,117,.5);
     margin-bottom: 1px;
-    // width: 250px;
-    // margin: 0 auto;
     transition: all .4s linear;
-    // display: none;
 `;
 export const FullName = styled.div`
-    // background: silver;
     background: #fff;
     line-height: 40px;
     color: #508C75;
@@ -22,13 +18,11 @@ export const FullName = styled.div`
     padding: 0 20px;
 `;
 export const PersonalDetails = styled.div`
-    // display: none;
     display: ${props => props.open ? 'flex' : 'none'};
-
+    margin: 5px 0;
     flex-direction: row;
     justify-content: space-between;
     padding: 0 20px;
-    // background: rgba(80,140,117,.5)
 `;
 export const Age = styled.div`
     color:#fff;
@@ -38,7 +32,7 @@ export const Details = styled.div`
     background: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
     cursor:pointer;
-
+    
     :hover{
         opacity: .7;
     }
@@ -46,10 +40,12 @@ export const Details = styled.div`
         opacity: .4;
     }
 `;
+export const Url = styled(Link)`
+    color: #000;
+`;
+
 export const Description = styled(Age)`
     padding: 0 20px;
     display: ${props => props.open ? 'block' : 'none'};
     min-height: 20px;
-    // background: rgba(80,140,117,.5)
-
 `;

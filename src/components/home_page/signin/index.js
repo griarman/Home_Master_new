@@ -9,13 +9,8 @@ import {
 import Form from './form'
 
 export default class SignIn extends PureComponent{
-    componentWillMount(){
-        document.title = this.props.home_page_data.title;
-    }
-    componentDidUpdate(){
-        document.title = this.props.home_page_data.title;
-    }
     render(){
+        document.title = this.props.home_page_data.title;
         const { home_page_data } = this.props;
         return(
             <Full className = 'active full'>

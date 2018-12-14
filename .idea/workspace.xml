@@ -3,11 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="8820171b-7301-448d-9a01-fd1ffe6b1353" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header_css.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header_css.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/masterList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/masterList/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/masterList/masterList_css.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/masterList/masterList_css.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home_page/circle/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home_page/circle/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home_page/signin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home_page/signin/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/master_page/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/master_page/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/master_page/masters/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/master_page/masters/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/master_page/masters/master/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/master_page/masters/master/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/master_page/masters/master/master_css.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/master_page/masters/master/master_css.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,22 +39,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/header/masterList/index.js">
+      <file leaf-file-name="masterList_css.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/header/masterList/masterList_css.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="731">
+              <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/header/index.js">
+      <file leaf-file-name="right_css.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/master_info/right/right_css.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="75" column="33" lean-forward="true" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+            <state relative-caret-position="102">
+              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/master_info/right/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,13 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/dfdd.js" />
-        <option value="$PROJECT_DIR$/src/components/jhj.js" />
-        <option value="$PROJECT_DIR$/src/languages.js" />
-        <option value="$PROJECT_DIR$/src/components/SignIn.js" />
-        <option value="$PROJECT_DIR$/src/components/Header_css.js" />
-        <option value="$PROJECT_DIR$/src/components/Header.js" />
         <option value="$PROJECT_DIR$/src/components/header/Header.js" />
         <option value="$PROJECT_DIR$/src/components/signin/SignIn.js" />
         <option value="$PROJECT_DIR$/src/components/signin/form/form_css.js" />
@@ -97,7 +106,6 @@
         <option value="$PROJECT_DIR$/src/components/signup/index.js" />
         <option value="$PROJECT_DIR$/src/history.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/components/home_page/index.js" />
         <option value="$PROJECT_DIR$/src/components/home_page/signup/SignUp_css.js" />
         <option value="$PROJECT_DIR$/src/components/home_page/signup/index.js" />
         <option value="$PROJECT_DIR$/src/components/home_page/signin/form/form_css.js" />
@@ -105,23 +113,31 @@
         <option value="$PROJECT_DIR$/src/components/master_page/categories/category/category_css.js" />
         <option value="$PROJECT_DIR$/src/components/master_page/categories/categories_css.js" />
         <option value="$PROJECT_DIR$/src/components/master_page/masters/master_css.js" />
-        <option value="$PROJECT_DIR$/src/components/master_page/masters/master/master_css.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/components/master_page/masters/index.js" />
         <option value="$PROJECT_DIR$/src/components/master_page/categories/category/index.js" />
         <option value="$PROJECT_DIR$/src/components/master_page/categories/index.js" />
-        <option value="$PROJECT_DIR$/src/components/master_page/masters/master/index.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/master_page/index.js" />
         <option value="$PROJECT_DIR$/src/components/home_page/signin/form/index.js" />
         <option value="$PROJECT_DIR$/src/masters_data.js" />
         <option value="$PROJECT_DIR$/src/components/home_page/about/index.js" />
         <option value="$PROJECT_DIR$/src/components/master_page/master_page_css.js" />
         <option value="$PROJECT_DIR$/src/components/header/Header_css.js" />
         <option value="$PROJECT_DIR$/src/components/home_page/circle/index.js" />
+        <option value="$PROJECT_DIR$/src/components/home_page/signin/index.js" />
+        <option value="$PROJECT_DIR$/src/components/home_page/index.js" />
+        <option value="$PROJECT_DIR$/src/components/master_page/index.js" />
+        <option value="$PROJECT_DIR$/src/components/header/index.js" />
+        <option value="$PROJECT_DIR$/src/components/master_page/masters/index.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/master_page/masters/master/index.js" />
+        <option value="$PROJECT_DIR$/src/components/master_page/masters/master/master_css.js" />
+        <option value="$PROJECT_DIR$/src/components/master_info/index.js" />
+        <option value="$PROJECT_DIR$/src/components/master_info/left/index.js" />
+        <option value="$PROJECT_DIR$/src/components/master_info/left/left_css.js" />
+        <option value="$PROJECT_DIR$/src/components/master_info/master_info_css.js" />
         <option value="$PROJECT_DIR$/src/components/header/masterList/masterList_css.js" />
         <option value="$PROJECT_DIR$/src/components/header/masterList/index.js" />
-        <option value="$PROJECT_DIR$/src/components/header/index.js" />
+        <option value="$PROJECT_DIR$/src/components/master_info/right/index.js" />
+        <option value="$PROJECT_DIR$/src/components/master_info/right/right_css.js" />
       </list>
     </option>
   </component>
@@ -137,10 +153,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="420" />
-    <option name="y" value="40" />
-    <option name="width" value="1495" />
-    <option name="height" value="935" />
+    <option name="x" value="756" />
+    <option name="width" value="1159" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -176,30 +191,23 @@
               <item name="home_master" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="header" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="master_info" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="home_master" type="b2602c69:ProjectViewProjectNode" />
               <item name="home_master" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="header" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="masterList" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="master_info" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="left" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="home_master" type="b2602c69:ProjectViewProjectNode" />
               <item name="home_master" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="home_page" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="home_master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="home_master" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="home_page" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="circle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="master_info" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="right" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -277,6 +285,8 @@
       <workItem from="1544253658846" duration="2613000" />
       <workItem from="1544359193894" duration="647000" />
       <workItem from="1544437926961" duration="4090000" />
+      <workItem from="1544738312730" duration="5467000" />
+      <workItem from="1544781004948" duration="7178000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1543585290991</created>
@@ -303,7 +313,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186536000" />
+    <option name="totallyTimeSpent" value="203600000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -316,16 +326,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013423" side_tool="true" weight="0.3048433" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Version Control" order="4" weight="0.22080536" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" sideWeight="0.5027933" side_tool="true" weight="0.23020135" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4986577" visible="true" weight="0.22792023" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49720672" visible="true" weight="0.15033557" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4986577" visible="true" weight="0.4985755" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49720672" visible="true" weight="0.15570469" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.3295302" />
       <window_info id="Structure" order="1" sideWeight="0.5031056" side_tool="true" weight="0.20773639" />
@@ -344,24 +353,24 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info id="npm" order="2" sideWeight="0.5027933" side_tool="true" weight="0.23020135" />
-      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49720672" visible="true" weight="0.06375839" />
       <window_info id="Structure" order="1" sideWeight="0.5031056" side_tool="true" weight="0.20773639" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32905984" />
-      <window_info id="Version Control" order="4" weight="0.22080536" />
-      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="0" weight="0.32905984" />
       <window_info anchor="right" id="Database" order="3" weight="0.3295302" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4986577" weight="0.035612535" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013423" side_tool="true" weight="0.3048433" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info id="Version Control" order="4" weight="0.22080536" />
+      <window_info anchor="bottom" id="Message" order="1" />
       <window_info id="Favorites" order="3" sideWeight="0.5014245" side_tool="true" weight="0.2671141" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,36 +416,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/header/Header.js" />
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/header/Header.js" />
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/header/Header.js" />
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -551,24 +530,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/master_page/masters/master/master_css.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/master_page/categories/category/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/home_page/signin/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -600,37 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/master_page/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/master_page/masters/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/master_page/masters/master/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="27" column="120" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/master_page/master_page_css.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/header/Header_css.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -645,27 +579,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/home_page/about/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/home_page/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-223">
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -683,27 +600,152 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/header/masterList/masterList_css.js">
+    <entry file="file://$PROJECT_DIR$/src/components/home_page/signin/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state relative-caret-position="221">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/header/masterList/index.js">
+    <entry file="file://$PROJECT_DIR$/src/components/home_page/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="85">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/master_page/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/header/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="75" column="33" lean-forward="true" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+        <state relative-caret-position="204">
+          <caret line="69" column="26" lean-forward="true" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/master_page/master_page_css.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="44" column="10" lean-forward="true" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/master_page/masters/master/master_css.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="76" column="36" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/master_page/masters/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/master_page/masters/master/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding>
+            <element signature="e#86#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/master_info/master_info_css.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/master_info/left/left_css.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/master_info/left/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/master_info/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header/masterList/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+          <folding>
+            <element signature="e#86#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header/masterList/masterList_css.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/master_info/right/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/master_info/right/right_css.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
         </state>
       </provider>
     </entry>

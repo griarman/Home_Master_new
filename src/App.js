@@ -4,6 +4,7 @@ import { Switch,  Route } from 'react-router-dom'
 
 import Home_page from './components/home_page'
 import Master_page from './components/master_page'
+import Master_info from './components/master_info'
 import Header from './components/header/'
 import masters from "./masters_data";
 import languages from "./languages";
@@ -48,6 +49,7 @@ class App extends Component {
                 <Switch>
                     <Route exact path={'/'} render={(props) => <Home_page {...props} language={this.state.language[0]}/>}/>
                     <Route exact path={'/master_page'} render={(props) => <Master_page {...props} language={this.state.language[0]} masters={masters} />} />
+                    <Route  path={'/master'} render={(props) => <Master_info {...props} language={ this.state.language[0] } masters={masters}/>}/>
                     <GlobalStyle/>
                 </Switch>
             </div>

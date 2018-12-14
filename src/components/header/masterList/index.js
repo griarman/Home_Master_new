@@ -1,4 +1,5 @@
 import React,{ PureComponent } from 'react'
+// import {Link} from 'react-router-dom'
 
 import {
     ListElement,
@@ -6,7 +7,8 @@ import {
     PersonalDetails,
     Description,
     Details,
-    Age
+    Age,
+    Url
 } from './masterList_css'
 
 export default class MasterList extends PureComponent{
@@ -17,15 +19,13 @@ export default class MasterList extends PureComponent{
         }
     }
     render(){
-        // document.addEventListener('click', ()=>{(this.state.isOpen) && this.setState({isOpen: false})},true);
-
         const { master,language } = this.props;
         return(
             <ListElement key={master.id}>
                 <FullName onClick = {this.handleClick}>{master.master_name} {master.master_surname}</FullName>
                 <PersonalDetails open = {this.state.isOpen} classList = {this.state.className}>
                     <Age>{language.age}:{+new Date().getFullYear() - +new Date(master.birth_date).getFullYear()}</Age>
-                    <Details>{language.details}</Details>
+                    <Details><Url to={`master#${master.id}`} >{language.details}</Url></Details>
                 </PersonalDetails>
                 <Description open = {this.state.isOpen}>{master.description}</Description>
             </ListElement>
@@ -39,22 +39,7 @@ export default class MasterList extends PureComponent{
             this.props.myClick(this.state.isOpen,el);
         });
     }
-    // handleClick = (ev)=>{
-    //    let {isOpen} = this.state;
-    //    const el = ev.target;
-    //    const next = el.nextElementSibling;
-    //     if(!isOpen){
-    //         // el.style.background = 'rgba(80,140,117,.5)';
-    //         next.style.display = 'flex';
-    //         next.nextElementSibling.style.display = 'block';
-    //     }else{
-    //         // el.style.background = '';
-    //         next.style.display = 'none';
-    //         next.nextElementSibling.style.display = 'none';
-    //     }
-        // this.setState({
-        //     isOpen: !this.state.isOpen
-        // });
+
 
 
     // }

@@ -11,13 +11,9 @@ export default class Master_page extends Component{
             masters : this.props.masters
         }
     }
-    componentWillMount(){
-        document.title = this.props.language.masters_data.title;
-    }
-    componentDidUpdate(){
-        document.title = this.props.language.masters_data.title;
-    }
     render(){
+        console.log(this.props);
+        document.title = this.props.language.masters_data.title;
         return(
             <div>
                 <GlobalStyle/>

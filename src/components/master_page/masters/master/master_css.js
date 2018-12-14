@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import {Link} from 'react-router-dom'
 
 export const MasterTag = styled.div`
     // max-width: 1200px;
@@ -59,9 +60,21 @@ export const Description = styled.div`
     padding: 20px;
 `;
 
-export const Name = styled.h2``;
+export const Name = styled.h2` 
+    color: #000;
+    text-decoration: none;
+`;
 export const Personal = styled.div``;
 export const Address = styled.div``;
 export const Age = styled.div``;
 export const Country = styled.div``;
 export const Phone = styled.div``;
+export const Url = styled(Link)`
+    text-decoration: none;
+    
+    :hover{
+        text-decoration: underline;
+        text-decoration-color:black;
+    }
+    
+`;

@@ -59,13 +59,14 @@ export default class Header extends PureComponent{
                         </Inp>
                     </Div>
                     <Search id={'search'} >
-                        {this.state.search.length > 0 && this.state.search.map((element) => <MasterList
-                                                                                                        defaultOpen={false}
-                                                                                                        myClick = {this.myClick}
-                                                                                                        key={element.id}
-                                                                                                        master={element}
-                                                                                                        language={language}
-                                                                                            />
+                        {this.state.search.length > 0 &&
+                        this.state.search.map((element) => <MasterList
+                                                                        defaultOpen={false}
+                                                                        myClick = {this.myClick}
+                                                                        key={element.id}
+                                                                        master={element}
+                                                                        language={language}
+                                                            />
                         )}
                     </Search>
                     <Div>

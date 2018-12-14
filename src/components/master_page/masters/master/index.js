@@ -1,4 +1,5 @@
 import React,{ PureComponent } from 'react'
+// import {Link} from 'react-router-dom'
 
 import {
     MasterTag,
@@ -11,7 +12,8 @@ import {
     Name,
     Age,
     Country,
-    Phone
+    Phone,
+    Url
 } from './master_css'
 
 export default class Master extends PureComponent{
@@ -24,7 +26,7 @@ export default class Master extends PureComponent{
                 <PersonalData>
                     <Info>
                         <Personal>
-                            <Name>{master.master_name} {master.master_surname}</Name>
+                            <Url to={`master#${master.id}` }><Name>{master.master_name} {master.master_surname}</Name></Url>
                             <Age>{language.age}: {+new Date().getFullYear() - +new Date(master.birth_date).getFullYear()}</Age>
                         </Personal>
                         <Address>
