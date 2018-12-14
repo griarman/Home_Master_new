@@ -2,24 +2,27 @@ import React, { Component } from 'react';
 import Left from './left';
 import Right from './right';
 
+
 import {
+    GlobalStyle,
     EmptyDiv,
     Container
 } from './master_info_css'
 
 export default class Master_info extends Component{
     render(){
-        console.log(this.props);
         document.title = this.props.language.master_page_data.title;
-        const { location } = this.props;
+        const { location, language } = this.props;
         let master = this.findMaster(location.hash.slice(1));
-        console.log(master);
+        // console.log(master);
+        // console.log(this.props);
         return(
             <div>
+                <GlobalStyle/>
                 <EmptyDiv/>
                 <Container>
-                    <Left master={master} />
-                    <Right master={master} />
+                    <Left master={ master } language={language}/>
+                    <Right master={ master } language={language}/>
                 </Container>
                 {/*{master}*/}
                 {/*<div><img src={master.avatar_url} alt=""/></div>*/}
@@ -44,6 +47,7 @@ export default class Master_info extends Component{
                 public: true
                 tags: (5) ["ator", "divan", "kahuyq", "mebel", "xol"]*/
                 }
+
             </div>
         )
     }
