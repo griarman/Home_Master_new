@@ -5,5 +5,5 @@ export const Container = styled.div`
     width: 60%;
 `;
 export const NameTag = styled.h1`
-    color: #555;   
+    color: #555;
 `;
