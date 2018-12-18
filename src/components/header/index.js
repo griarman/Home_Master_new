@@ -24,19 +24,7 @@ export default class Header extends PureComponent{
             search: []
         };
     }
-    myClick = (isOpen,el)=>{
-
-        const next = el.nextElementSibling;
-        if(isOpen){
-            next.style.display = 'flex';
-            next.nextElementSibling.style.display = 'block';
-        }else {
-            next.style.display = 'none';
-            next.nextElementSibling.style.display = 'none';
-        }
-    };
-    render(){
-        const { language } = this.props;
+    componentDidMount(){
         document.addEventListener('scroll', function f(ev){
             let headerTag = document.querySelector('#headerTag');
             if(window.pageYOffset > 50) {
@@ -49,6 +37,20 @@ export default class Header extends PureComponent{
                 f.bg = null
             }
         });
+    }
+
+    myClick = (isOpen, el)=>{
+        const next = el.nextElementSibling;
+        if(isOpen){
+            next.style.display = 'flex';
+            next.nextElementSibling.style.display = 'block';
+        }else {
+            next.style.display = 'none';
+            next.nextElementSibling.style.display = 'none';
+        }
+    };
+    render(){
+        const { language } = this.props;
         return(
                 <HeaderTag id = 'headerTag'>
                     <Div>
@@ -80,7 +82,6 @@ export default class Header extends PureComponent{
                 </HeaderTag>
         )
     }
-
 
     handleChange = (el) => {
         let searchTag = document.getElementById('search');

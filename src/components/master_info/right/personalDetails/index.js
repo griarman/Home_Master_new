@@ -22,7 +22,6 @@ import {
 library.add(faMapMarkerAlt, faCommentAlt, faCheck, faUser, faEye);
 
 export default function PersonalDetails (props) {
-    // let contacts = ()
     const { master, master_description_data, city, contacts, message,report,timeLine,about } = props;
     return (
         <div>

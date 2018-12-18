@@ -2,10 +2,14 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     font-family: Arial;
+    max-height: 320px;
     width: 60%;
 `;
 export const NameTag = styled.h1`
     color: #555;
+    @media(max-width: 600px){
+        font-size: 1.2em;
+    }
 `;
 
 export const FirstLine = styled.div`
@@ -14,15 +18,18 @@ export const FirstLine = styled.div`
     justify-content: space-between; 
     align-items: center;
     margin: 10px 0;
+    flex-wrap: wrap;
 `;
 export const SecondLine = styled.div`
     margin-top: 50px;
+    flex-wrap: wrap;
     display: flex;
     flex-direction: row;
 `;
 export const GPS = styled.div`
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     color: #9B9B9B;
 `;

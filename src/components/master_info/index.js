@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Left from './left';
 import Right from './right';
+import rightLanguage from './rightLanguage'
 
 
 import {
@@ -10,19 +11,22 @@ import {
 } from './master_info_css'
 
 export default class Master_info extends Component{
-    render(){
+    componentWillMount(){
         document.title = this.props.language.master_page_data.title;
+    }
+    componentDidUpdate(){
+        document.title = this.props.language.master_page_data.title;
+    }
+    render(){
         const { location, language } = this.props;
         let master = this.findMaster(location.hash.slice(1));
-        // console.log(master);
-        // console.log(this.props);
         return(
             <div>
                 <GlobalStyle/>
                 <EmptyDiv/>
                 <Container>
                     <Left master={ master } language={language}/>
-                    <Right master={ master } language={language}/>
+                    <Right master={ master } language={{...language,rightLanguage}}/>
                 </Container>
                 {/*{master}*/}
                 {/*<div><img src={master.avatar_url} alt=""/></div>*/}

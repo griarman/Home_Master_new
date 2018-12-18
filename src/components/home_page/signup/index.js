@@ -23,9 +23,7 @@ export default class SignUp extends Component{
                    <Input type='password' placeholder={language.confirm_password} id='rePassS'/>
                    <Error id={'error_signup'}>{language.sign_in_error}</Error>
                    <Button  onClick={this.handleClick} >{language.sign_up}</Button>
-
                </RegistrationWindow>
-
            </SignUpTag>
         )
     }
