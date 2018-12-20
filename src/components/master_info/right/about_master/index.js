@@ -7,12 +7,11 @@ import {
 } from './about_master_css'
 
 export default function AboutMaster(props){
-    console.log(props);
     const { contact, master_description_data, master, basic, date_of_birth, language} = props;
-    const phone = master.phone.map(v => {
-        v = parseInt(v.replace(/\D/g, '')).toString();
-        return (v.length === 8) ? '+(374-' + v.replace(/(\d{2})(\d{2})(\d{2})(\d{2})/, '$1) $2-$3-$4') :
-            '+(' + v.replace(/(\d{3})(\d{2})(\d{2})(\d{2})(\d{2})/,' $1-$2) $3-$4-$5');
+    const phone = master.phone.map(number => {
+        number = parseInt(number.replace(/\D/g, '')).toString();
+        return (number.length === 8) ? '+(374-' + number.replace(/(\d{2})(\d{2})(\d{2})(\d{2})/, '$1) $2-$3-$4') :
+            '+(' + number.replace(/(\d{3})(\d{2})(\d{2})(\d{2})(\d{2})/,' $1-$2) $3-$4-$5');
     });
     return(
         <Container>

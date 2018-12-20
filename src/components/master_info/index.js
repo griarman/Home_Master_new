@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Left from './left';
 import Right from './right';
+import leftLanguage from './leftLanguage';
 import rightLanguage from './rightLanguage'
 
 
@@ -25,7 +26,7 @@ export default class Master_info extends Component{
                 <GlobalStyle/>
                 <EmptyDiv/>
                 <Container>
-                    <Left master={ master } language={language}/>
+                    <Left master={ master } language={{...language,leftLanguage}}/>
                     <Right master={ master } language={{...language,rightLanguage}}/>
                 </Container>
                 {/*{master}*/}

@@ -11,7 +11,6 @@ export default function Right (props) {
     let city = findCity(master.city,master_page_data);
     let thisLanguage = getLanguage(language.language, rightLanguage);
     let { contacts, message, report, timeLine, about, contact, basic, date_of_birth,date } = thisLanguage;
-
     return (
         <Container>
             <PersonalDetails master={master}

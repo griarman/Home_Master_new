@@ -14,6 +14,9 @@ export const HeaderTag = styled.header`
 export const Div = styled.div`
     display:flex;
     align-items: center;
+    a{
+        color: #fff!important;
+    }
 `;
 export const Select = styled.div``;
 export const Search = styled.div`

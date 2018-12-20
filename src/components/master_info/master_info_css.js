@@ -5,7 +5,8 @@ export const GlobalStyle = createGlobalStyle`
         margin:0; 
     }
     body{
-        background: url('images/morocco.png');
+        background: url('images/1.jpg');
+        // background-size:cover;
     }
 `;
 
@@ -20,8 +21,9 @@ export const Container= styled.div`
     width:100%;
     max-width: 1200px;
     min-width: 380px;
+    min-height: calc(100vh - 120px);
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     justify-content: space-evenly;
     margin: 0 auto;
     border-radius: 5px;

@@ -17,7 +17,7 @@ export const FirstLine = styled.div`
     flex-direction: row;
     justify-content: space-between; 
     align-items: center;
-    margin: 10px 0;
+    padding: 10px 0;
     flex-wrap: wrap;
 `;
 export const SecondLine = styled.div`
