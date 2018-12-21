@@ -54,7 +54,7 @@ export default class Header extends PureComponent{
         return(
                 <HeaderTag id = 'headerTag'>
                     <Div>
-                        <Link to={'/'} >HM</Link>
+                        <Link to={'/'} onClick={this.disableClick}>HM</Link>
                         <Inp>
                             <Loop></Loop>
                             <Input type="text" placeholder={language.search} onInput={this.handleChange}/>
@@ -113,5 +113,10 @@ export default class Header extends PureComponent{
             });
             this.props.languages(selectedLanguage)
         })
+    };
+    disableClick = (ev) => {
+        if(window.location.href === 'http://localhost:3000/'){
+            ev.preventDefault();
+        }
     }
 }
